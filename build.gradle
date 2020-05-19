@@ -22,6 +22,19 @@ allprojects {
         jcenter()
         
     }
+
+    ext {
+        minSdkVersion = 19
+        targetSdkVersion = 29
+        compileSdkVersion = 29
+        appcompatVersion= '1.2.0-beta01'
+        materialVersion='1.1.0'
+        annotationVersion='1.1.0-beta01'
+        butterknifeVersion = '10.1.0'
+        constraintLayoutVersion = "1.1.3"
+        mmkvVersion = '1.0.23'
+        junitVersion='4.13'
+    }
 }
 
 task clean(type: Delete) {
